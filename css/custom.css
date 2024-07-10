@@ -1,0 +1,18 @@
+/* CSS Customizations */
+.logo {
+	width: 150px;
+}
+
+/*Responsive on Mobile*/
+@media (max-width: 767px) {
+	.logo {
+		width: 120px;
+	}
+	#header .header-logo {
+		margin: 0;
+	}
+	.text-sm-center {
+		text-align: center !important;
+	}
+}
+
